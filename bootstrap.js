@@ -22,11 +22,11 @@
 
     // Allow playing some sounds
     App.ChannelManager()
-        .addChannel(al + 'tbol-dm.wav')
-        .addChannel(al + 'tbol-dm2.wav')
-        .addChannel(al + 'tar-dm.wav')
-        .addChannel(al + 'tar-tk.wav')
-        .addChannel(al + 'tar-tk3.wav');
+        .addChannel('tbol-dm.wav')
+        .addChannel('tbol-dm2.wav')
+        .addChannel('tar-dm.wav')
+        .addChannel('tar-tk.wav')
+        .addChannel('tar-tk3.wav');
   });
 
 }(window.STEPSEQUENCER, window.jQuery));
